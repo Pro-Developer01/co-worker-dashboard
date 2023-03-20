@@ -1,8 +1,11 @@
 import './App.css';
+import Sidebar from './Components/Sidebar/Sidebar';
 
 function App() {
   return (
-    <h1>shkjsdsd</h1>
+    <div className="rootConatiner">
+      <Sidebar />
+    </div>
   );
 }
 
