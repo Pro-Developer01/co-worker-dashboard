@@ -1,0 +1,41 @@
+.inviteCardRows {
+  margin: 29px 0;
+}
+
+.inviteCardRows input {
+  background: var(--elementsBackground);
+  border-radius: 8px;
+  border: none;
+  padding: 18px 16px;
+  min-width: 428px;
+}
+
+.inviteCardRows select {
+  background: var(--elementsBackground);
+  border-radius: 8px;
+  border: none;
+  padding: 18px 0;
+  padding-left: 32px;
+  padding-right: 0px;
+  /* width: 132px; */
+  margin-left: 24px;
+  border-right: 29px solid transparent;
+}
+.inviteCardHeader {
+  position: relative;
+}
+.inviteCardHeader span:last-child {
+  position: absolute;
+  top: -20px;
+  right: -8px;
+}
+.inviteCardFooter span {
+  color: #1161d6;
+}
+
+.inviteCardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: -27px;
+}
