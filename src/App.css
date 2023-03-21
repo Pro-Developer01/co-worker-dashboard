@@ -3,6 +3,8 @@
   --whiteColor: #f5f5f5;
   --mainBackground: #fbfbfb;
   --elementsBackground: #f5f5f5;
+  --darkGray: #323232;
+  --Gray: #767676;
 }
 
 a {
@@ -20,6 +22,7 @@ a {
   width: 100%;
   padding: 32px;
   box-sizing: border-box;
+  overflow: auto;
 }
 .breadcumContainer {
   display: flex;
@@ -47,4 +50,72 @@ a {
   border: 0;
   color: white;
   padding: 0;
+  cursor: pointer;
+}
+.buttonPrimary:hover {
+  opacity: 0.9;
+}
+.buttonPrimary:active {
+  opacity: 0.8;
+}
+
+.Sub-Head {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.Very-Small-Text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+select {
+  background: var(--elementsBackground);
+  border-radius: 8px;
+  border: none;
+  padding: 18px 0;
+  padding-left: 32px;
+  padding-right: 0px;
+  /* width: 132px; */
+  margin-left: 24px;
+  border-right: 29px solid transparent;
+}
+select:invalid {
+  color: var(--Gray) !important;
+}
+
+option {
+  padding: 10px 15px;
+}
+input {
+  background: var(--elementsBackground);
+  border-radius: 8px;
+  border: none;
+  padding: 18px 16px;
+  min-width: 428px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background: var(--elementsBackground);
+  border-radius: 4px;
+  color: var(--darkGray);
+  text-align: center;
+  padding: 14px 11px;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }

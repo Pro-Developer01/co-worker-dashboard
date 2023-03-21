@@ -2,35 +2,20 @@
   margin: 29px 0;
 }
 
-.inviteCardRows input {
-  background: var(--elementsBackground);
-  border-radius: 8px;
-  border: none;
-  padding: 18px 16px;
-  min-width: 428px;
-}
-
-.inviteCardRows select {
-  background: var(--elementsBackground);
-  border-radius: 8px;
-  border: none;
-  padding: 18px 0;
-  padding-left: 32px;
-  padding-right: 0px;
-  /* width: 132px; */
-  margin-left: 24px;
-  border-right: 29px solid transparent;
-}
 .inviteCardHeader {
   position: relative;
 }
-.inviteCardHeader span:last-child {
-  position: absolute;
-  top: -20px;
-  right: -8px;
+.inviteCardHeaderimg {
+  position: absolute !important;
+  top: -20px !important;
+  right: -8px !important;
 }
+
 .inviteCardFooter span {
   color: #1161d6;
+  font-family: "Public Sans";
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .inviteCardFooter {
@@ -38,4 +23,13 @@
   justify-content: space-between;
   align-items: flex-end;
   margin-top: -27px;
+}
+
+#tooltipPosition_Info {
+  /* Position the tooltip */
+  width: 178px;
+  position: absolute;
+  top: 100%;
+  right: 27%;
+  margin-left: -90px;
 }

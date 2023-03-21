@@ -3,9 +3,9 @@ import React from 'react'
 export default function Breadcum({ heading }) {
     return (
         <div className='breadcumContainer'>
-            {/* <img src="Assets/Chevron_Left.svg" alt="back" />
-             */}
-            <span>#</span>
+            <img src="Assets/Chevron_Left.svg" alt="back" />
+
+            {/* <span>#</span> */}
             <span>{heading}</span>
         </div>
     )

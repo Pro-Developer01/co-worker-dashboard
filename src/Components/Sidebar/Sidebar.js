@@ -28,7 +28,7 @@ export default function Sidebar() {
                     <span>Entity Name</span>
                     <a href="www.website.com">www.website.com</a>
                 </div>
-                <div className="entityArrow">#</div>
+                <img src='Assets/Chevron_Right.svg' alt='arrow' />
             </div>
             <div className="sidebarMenu">
                 {menuItems.map((item, index) => {

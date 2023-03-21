@@ -1,0 +1,32 @@
+.dataCardHeader {
+  display: flex;
+  gap: 150px;
+  margin-bottom: 40px;
+}
+.ownerData {
+  color: #767676;
+  margin-bottom: 45px !important;
+}
+.dataCardRows {
+  display: flex;
+  gap: 73px;
+  margin: 25px 0;
+  align-items: center;
+}
+.dataCardRows span:first-child {
+  width: 240px;
+}
+.dataCardRows select {
+  margin: 0;
+}
+.dataCardContent div:last-child {
+  margin-bottom: 7px;
+}
+
+#tooltipPosition_delete {
+  /* Position the tooltip */
+  position: absolute;
+  padding: 6px 10px;
+  width: 83px;
+  top: 65%;
+}
