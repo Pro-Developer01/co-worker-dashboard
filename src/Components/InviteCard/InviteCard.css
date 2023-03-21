@@ -25,8 +25,8 @@
   margin-top: -27px;
 }
 
+/* Position the tooltip */
 #tooltipPosition_Info {
-  /* Position the tooltip */
   width: 178px;
   position: absolute;
   top: 100%;

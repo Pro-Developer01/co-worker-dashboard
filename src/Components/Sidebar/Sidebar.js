@@ -26,7 +26,7 @@ export default function Sidebar() {
                 <img src="Assets/gSymbol.svg" alt="GSymbol" />
                 <div className="entityText">
                     <span>Entity Name</span>
-                    <a href="www.website.com">www.website.com</a>
+                    <a href="#">www.website.com</a>
                 </div>
                 <img src='Assets/Chevron_Right.svg' alt='arrow' />
             </div>

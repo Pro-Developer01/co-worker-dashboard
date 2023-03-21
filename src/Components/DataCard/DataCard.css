@@ -23,8 +23,8 @@
   margin-bottom: 7px;
 }
 
+/* Position the tooltip */
 #tooltipPosition_delete {
-  /* Position the tooltip */
   position: absolute;
   padding: 6px 10px;
   width: 83px;
